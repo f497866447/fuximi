@@ -1,0 +1,13 @@
+ul li{
+	display: inline-block;
+	padding-left:20px ;
+}
+h1{
+	padding-left:20px ;
+}
+li img:hover{
+	transform: rotate(360deg) scale(1.2);
+	-webkit-transform: rotate(360deg) scale(1.2);
+	transition: all 1.8s linear;
+	-webkit-transition: all 1.8s linear;
+}

@@ -1,0 +1,32 @@
+.father{
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px black solid;
+	overflow: hidden;
+	width: 322px;
+}
+.father div{
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+	border: 1px peachpuff solid;
+	text-align: center;
+	line-height: 100px;
+	display: inline-block;
+}
+.father a{
+	text-decoration: none;
+	color: white;
+}
+#href02{
+	float: right;
+}
+#href03{
+	float: left;
+	position: absolute;
+	top: 202px;
+	clear: left;
+}
+

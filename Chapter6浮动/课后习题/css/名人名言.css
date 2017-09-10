@@ -1,0 +1,105 @@
+*{margin: 0 auto; padding: 0;}
+body{
+	width: 960px;
+}
+a:link{
+	text-decoration: none;
+}
+ul li{
+	display: inline-block;
+	float: left;
+}
+header{
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid gainsboro;
+	overflow: hidden;
+}
+header div{
+	color: gray;
+	font-style: italic;
+}
+header a:link{
+	color: gray;
+}
+.foreword{
+	margin: 20px 0px;
+}
+header li{
+	border: solid 1px gainsboro;
+	padding: 8px;
+	margin: 0;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+header li:last-of-type{
+	border-right: solid 1px gainsboro;
+}
+
+section{
+	margin: 20px;
+	width: 100%;
+	margin-right: 0px;
+	
+}
+article{
+	line-height: 24px;
+}
+article div,p{
+	margin: 10px 0;
+	margin-right: 0px;
+	
+	
+}
+.txt{
+	width: 620px;
+	float: left;
+}
+.well_known_saying{
+	border: solid 1px gainsboro;
+	/*margin: 10px 0;*/
+	padding: 10px;
+}
+.creativity{
+	margin: 10px 0;
+}
+.creativity p:first-of-type{
+	font-weight: bold;
+}
+.author h2{
+	padding: 10px;
+	border: solid 1px gainsboro;
+}
+.author p:first-of-type{
+	font-weight: bold;
+}
+.ad{
+	display: block;
+	font-style: italic;
+	margin: 10px 0;
+}
+.ad_01{
+	padding: 10px;
+	border: solid 1px gainsboro;
+}
+#seach p{
+	font-size: 14px;
+	line-height: 24px;
+	font-style: italic;
+}
+
+
+
+aside{
+	float: right;
+	width: 320px;
+	border: solid 1px gainsboro;
+	padding: 10px;
+	margin: 10px 0px 0px 20px;
+	
+	box-sizing: border-box;
+}
+
+
+

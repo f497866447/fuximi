@@ -1,0 +1,16 @@
+ul li {
+	display: inline-block;
+	padding: 20px;
+}
+img{
+	/*-moz-transition: all 2s linear;
+	-webkit-transition: all 2s linear;
+	-o-transition: all 2s linear;*/
+	transition:all 2s ease-in-out;
+}
+img:hover{
+	/*-moz-transform: rotate(360deg) scale(1.5);	
+	-webkit-transform: rotate(360deg) scale(1.5);
+	-o-transform: rotate(360deg) scale(1.5);*/
+	transform: rotate(360deg) scale(1.5);
+}

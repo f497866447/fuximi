@@ -1,0 +1,69 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.nav1,ul li,/*.href1,.href2,*/.logo,.log,/*.supervip,*/.all,.sb{
+	display: inline-block;
+	/*border: 1px red dashed;*/
+	height: 90px;
+	vertical-align: top;
+	line-height: 90px;
+}
+.head1{
+	width: 1366px;
+	background-color: rgba(0,0,0,0.6);
+}
+.sb{
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	/*height: 90px;*/
+	/*border: 2px dashed cadetblue;*/
+
+}
+.all{
+	width: 1180px;
+	margin: 0 auto;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+li a:hover{
+	color: blue;
+}
+.logo{
+	/*margin:0px 10px;*/
+}
+.nav1{
+	margin: 0 40px;
+}
+li{
+	width: 90px;
+}
+.href1,.href2{
+	width: 120px;
+    height: 38px;
+    line-height: 38px;
+    color: #fad65c;
+    border: 1px #fad65c solid;
+    border-radius: 35px;
+    margin: 25px 5px 0px 5px;
+    display: inline-block;
+	vertical-align: top;
+}
+.href1:link{
+	color: #FAD65C;
+}
+.href2:link{
+	background-color: #FAD65C;
+	font-weight: bold;
+	color: #986B0D;
+}
+.href1:hover{
+	color: white;
+	background-color: #FAD65C;
+}
+.href2:hover{
+	background-color: yellow;
+}

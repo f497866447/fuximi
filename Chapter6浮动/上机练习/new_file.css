@@ -1,0 +1,17 @@
+div{
+	display: inline-block;
+}
+#test1{
+	border: 2px dashed red;
+	width: 100px;
+	float: left;
+}
+#test2{
+	border: 2px dashed blue;
+	width: 100px;
+	float: right;
+}
+#test3{
+	border: 2px dashed green;
+	width: 100px;
+}
